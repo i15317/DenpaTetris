@@ -169,6 +169,7 @@
     <ClInclude Include="targetver.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Tetris.h" />
+    <ClInclude Include="Title.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>

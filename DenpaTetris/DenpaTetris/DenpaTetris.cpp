@@ -10,25 +10,40 @@
 #include"Tetris.h"
 #include "DxLib.h"
 #include<memory>
+#include"Title.h"
+
+
+/*
+
+システムフラグ
+
+*/
+bool system_flag = true;
+bool game_flag = false;
 
 //Windowのセットアップコード
 void SetupWindowConfig() {
 	// 描画先画面を裏画面にする
-	SetDrawScreen(DX_SCREEN_BACK);
 	SetWindowSize(1280, 960);
 	ChangeWindowMode(true);
 }
 
 void AppLoop() {
-	char Buf[256];
 	//tetris = new Tetris();
 	std::shared_ptr<Tetris> tetris(new Tetris());
+	char Buf[256];
+
 	//メインループ
 	while (true) {
-		GetHitKeyStateAll(Buf);
+
 		// 画面全体を初期化
 		ClearDrawScreen();
-
+		
+		if (!game_flag) {
+			break;
+		}
+		
+		GetHitKeyStateAll(Buf);
 		//キーイベント処理
 		if (Buf[KEY_INPUT_RIGHT] == 1)
 		{
@@ -37,6 +52,7 @@ void AppLoop() {
 		else if (Buf[KEY_INPUT_LEFT] == 1)
 		{
 			tetris->getCurPiece()->move(Piece::Left);
+
 		}
 		else if (Buf[KEY_INPUT_DOWN] == 1) {
 			tetris->getCurPiece()->move(Piece::Down);
@@ -45,7 +61,9 @@ void AppLoop() {
 			tetris->getCurPiece()->turn();
 		}
 		else if (Buf[KEY_INPUT_ESCAPE] == 1 || Buf[KEY_INPUT_Q] == 1) {
-			break;
+			game_flag = false;
+			continue;
+
 		}
 
 		//状態更新
@@ -55,13 +73,18 @@ void AppLoop() {
 
 		//ゲームの終了判定
 		if (tetris->isGameover()) {
-			break;
+			game_flag = false;
+			
 		}
 		// 裏画面の内容を表画面に反映する
 		ScreenFlip();
-		Sleep(128);
+		//フレーム待ち
+		WaitTimer(128);
 	}
 }
+
+
+
 
 // プログラムは WinMain から始まります
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
@@ -72,30 +95,54 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	*/
 	SetupWindowConfig();
 
-	char Buf[256];
-
 
 	//最終初期化処理
 	if (DxLib_Init() == -1)		// ＤＸライブラリ初期化処理
 	{
 		return false;			// エラーが起きたら直ちに終了
 	}
+	SetDrawScreen(DX_SCREEN_BACK);
+	// 同期読み込み設定に変更
+	SetUseASyncLoadFlag(FALSE);
+	char Buf[256];
 
+	Title title;
 	//メインループ
 	while (true) {
+
 		// 画面全体を初期化
 		ClearDrawScreen();
-		//キー応答待ち
-		WaitKey();
-		//キー操作取得
-		GetHitKeyStateAll(Buf);
-		if (Buf[KEY_INPUT_Q] == 1) {
+
+		if (!system_flag) {
 			break;
 		}
-		else {
-			//何もしない
+
+		GetHitKeyStateAll(Buf);
+
+		if (Buf[KEY_INPUT_ESCAPE] == 1 || Buf[KEY_INPUT_Q] == 1) {
+			system_flag = false;
+			continue;
 		}
-		AppLoop();
+		else if (Buf[KEY_INPUT_S] == 1) {
+			game_flag = true;
+			continue;
+		}
+
+		if (game_flag) {
+			AppLoop();
+			ClearDrawScreen();
+		}
+
+
+
+		//描画
+		title.Render();
+
+
+		// 裏画面の内容を表画面に反映する
+		ScreenFlip();
+		//フレーム待ち
+		WaitTimer(32);
 	}
 
 	DxLib_End();				// ＤＸライブラリ使用の終了処理

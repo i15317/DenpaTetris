@@ -172,9 +172,16 @@ public:
 
 		drawLine();
 
-		//renderString();
+		renderText();
 
 	}
+
+	//テキスト描画
+	void renderText() {
+
+	}
+
+
 	/*DWORD WINAPI executeThread()
 	{
 		HANDLE hMutex = OpenMutex(MUTEX_ALL_ACCESS, FALSE, MUTEX_NAME);
