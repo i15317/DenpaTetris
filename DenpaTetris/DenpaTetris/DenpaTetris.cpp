@@ -38,11 +38,11 @@ void AppLoop() {
 
 		// 画面全体を初期化
 		ClearDrawScreen();
-		
+
 		if (!game_flag) {
 			break;
 		}
-		
+
 		GetHitKeyStateAll(Buf);
 		//キーイベント処理
 		if (Buf[KEY_INPUT_RIGHT] == 1)
@@ -60,7 +60,7 @@ void AppLoop() {
 		else if (Buf[KEY_INPUT_R] == 1) {
 			tetris->getCurPiece()->turn();
 		}
-		else if (Buf[KEY_INPUT_ESCAPE] == 1 || Buf[KEY_INPUT_Q] == 1) {
+		else if (Buf[KEY_INPUT_Q] == 1) {
 			game_flag = false;
 			continue;
 
@@ -74,7 +74,7 @@ void AppLoop() {
 		//ゲームの終了判定
 		if (tetris->isGameover()) {
 			game_flag = false;
-			
+
 		}
 		// 裏画面の内容を表画面に反映する
 		ScreenFlip();
@@ -117,30 +117,28 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 			break;
 		}
 
-		GetHitKeyStateAll(Buf);
+		//描画
+		title.Render();
+		// 裏画面の内容を表画面に反映する
+		ScreenFlip();
 
-		if (Buf[KEY_INPUT_ESCAPE] == 1 || Buf[KEY_INPUT_Q] == 1) {
+		GetHitKeyStateAll(Buf);
+		WaitKey();
+		
+		if (Buf[KEY_INPUT_ESCAPE] == 1) {
 			system_flag = false;
 			continue;
 		}
 		else if (Buf[KEY_INPUT_S] == 1) {
-			game_flag = true;
+			game_flag =true;
 			continue;
 		}
 
 		if (game_flag) {
-			AppLoop();
 			ClearDrawScreen();
+			AppLoop();
 		}
 
-
-
-		//描画
-		title.Render();
-
-
-		// 裏画面の内容を表画面に反映する
-		ScreenFlip();
 		//フレーム待ち
 		WaitTimer(32);
 	}

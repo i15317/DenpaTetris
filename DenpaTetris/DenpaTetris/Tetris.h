@@ -39,7 +39,10 @@ public:
 		nextPiece_ = createPiece();
 		//疑似乱数生成器の初期化
 		mt.seed(rnd());
-		//乱数生成器の範囲を設定
+
+
+		fontHandleLarge = CreateFontToHandle(L"HGP創英角ポップ体", 40, 3);
+		fontHandle = CreateFontToHandle(L"HGP創英角ポップ体", 32, 8);
 
 	}
 	//デストラクタ実装
@@ -178,6 +181,10 @@ public:
 
 	//テキスト描画
 	void renderText() {
+		DrawStringToHandle(330, 130, L"操作説明", GetColor(255, 255, 255), fontHandleLarge);
+		DrawStringToHandle(330, 180, L"Rキー・・・回転", GetColor(255, 255, 255), fontHandle);
+		DrawStringToHandle(330, 230, L"矢印キー： 移動", GetColor(255, 255, 255), fontHandle);
+		DrawStringToHandle(330, 280, L"Qキー・・・終わる", GetColor(255, 255, 255), fontHandle);
 
 	}
 
@@ -323,6 +330,8 @@ private:
 	std::random_device rnd;
 	std::mt19937_64 mt;
 	std::uniform_int_distribution<> rand;
+	int		fontHandle;
+	int		fontHandleLarge;
 
 };
 
