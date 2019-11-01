@@ -24,7 +24,7 @@ bool game_flag = false;
 //Windowのセットアップコード
 void SetupWindowConfig() {
 	// 描画先画面を裏画面にする
-	SetWindowSize(1280, 960);
+	SetWindowSize(800, 600);
 	ChangeWindowMode(true);
 }
 
