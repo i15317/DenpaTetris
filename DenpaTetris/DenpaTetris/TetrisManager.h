@@ -67,6 +67,7 @@ public:
 	bool turn();
 
 	bool movePiece(Dir dir);
+	void fixPiece(const Point pos);
 
 private:
 	std::shared_ptr<Field> m_field;

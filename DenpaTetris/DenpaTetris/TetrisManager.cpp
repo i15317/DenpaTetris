@@ -4,6 +4,19 @@
 #include"Cell.h"
 #include"TetrisManager.h"
 
+void TetrisManager::fixPiece(const Point pos)
+{
+	for (int y = 0; y < PieceHeight; y++)
+	{
+		for (int x = 0; x < PieceWidth; x++)
+		{
+			if (m_currentPiece->checkStateBlock(x, y) && pos.y + y >= 0)
+			{
+				m_field->updateState(pos.x + x, pos.y + y, m_currentPiece->getCell(x, y));
+			}
+		}
+	}
+}
 bool TetrisManager::movePiece(Dir dir) {
 	auto pos_ = m_currentPiece->getPos();
 	switch (dir) {
@@ -40,7 +53,8 @@ bool TetrisManager::movePiece(Dir dir) {
 		}
 		else
 		{
-			field_->fixPiece(pos_, cells_);
+			//ƒs[ƒX‚ÌŒÅ’èˆ—
+			fixPiece(pos);
 			return false;
 		}
 		break;

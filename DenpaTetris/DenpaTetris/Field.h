@@ -23,6 +23,11 @@ public:
 	*/
 	void fixPiece(const Point pos, const Cell cells[][PieceHeight]);
 
+
+	void updateState(int x, int y, Cell cell)
+	{
+		cells_[x][y] = cell;
+	}
 	//íœ‚µ‚½•ª‚ğ“®‚©‚·
 	void shiftLine(int delCount);
 
