@@ -42,7 +42,6 @@ bool TetrisManager::movePiece(Dir dir) {
 		else {
 			return false;
 		}
-
 		break;
 	}//RightƒuƒƒbƒN
 	case Down:

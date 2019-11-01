@@ -163,18 +163,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Cell.h" />
     <ClInclude Include="DenpaTetris.h" />
+    <ClInclude Include="Field.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="PieceMaker.h" />
+    <ClInclude Include="Point.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="Item.h" />
+    <ClInclude Include="Piece.h" />
     <ClInclude Include="Tetris.h" />
+    <ClInclude Include="TetrisManager.h" />
     <ClInclude Include="Title.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DenpaTetris.cpp" />
+    <ClCompile Include="Field.cpp" />
+    <ClCompile Include="Piece.cpp" />
+    <ClCompile Include="PieceMaker.cpp" />
     <ClCompile Include="Tetris.cpp" />
+    <ClCompile Include="TetrisManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="DenpaTetris.rc" />

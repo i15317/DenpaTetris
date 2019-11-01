@@ -45,19 +45,7 @@ int Field::deleteLine() {
 	return delCount;
 }
 
-void Field::fixPiece(const Point pos, const Cell cells[][PieceHeight])
-{
-	for (int y = 0; y < PieceHeight; y++)
-	{
-		for (int x = 0; x < PieceWidth; x++)
-		{
-			if (cells[x][y].getBlock() && pos.y + y >= 0)
-			{
-				cells_[pos.x + x][pos.y + y] = cells[x][y];
-			}
-		}
-	}
-}
+
 
 /*
 
