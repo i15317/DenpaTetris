@@ -12,16 +12,12 @@ Tetris用クラス群（突貫作成のため可読性はご容赦）
 #include<random>
 #include"Resource.h"
 #include"DxLib.h"
+#include"Item.h"
 #include <mmsystem.h>
 #include <stdlib.h>
 #include <tchar.h>
 #include <ctime>
 #include <process.h>
-
-//前方宣言
-class Field;
-class Piece;
-
 #define MUTEX_NAME     _T("TetrisMutex")
 #define WM_MUTEX       WM_APP
 #define WM_RESTART     (WM_APP + 1)
@@ -43,10 +39,12 @@ public:
 		nextPiece_ = createPiece();
 		//疑似乱数生成器の初期化
 		mt.seed(rnd());
+
+
 		fontHandleLarge = CreateFontToHandle(L"HGP創英角ポップ体", 40, 3);
 		fontHandle = CreateFontToHandle(L"HGP創英角ポップ体", 32, 8);
-	}
 
+	}
 	//デストラクタ実装
 	~Tetris()
 	{
@@ -55,10 +53,38 @@ public:
 
 		delete field_;
 	}
+	void  releasePiece(Piece* piece)
+	{
+		if (piece != nullptr)
+		{
+			delete piece;
+			piece = nullptr;
+		}
+	}
+	Piece* createPiece()
+	{
+		//乱数取得
+		int value = rnd() % 7;
 
-	void  releasePiece(Piece* piece);
-
-
+		switch (value)
+		{
+		case 0:
+			return new Piece0(field_);
+		case 1:
+			return new Piece1(field_);
+		case 2:
+			return new Piece2(field_);
+		case 3:
+			return new Piece3(field_);
+		case 4:
+			return new Piece4(field_);
+		case 5:
+			return new Piece5(field_);
+		case 6:
+			return new Piece6(field_);
+		}
+		return nullptr;
+	}
 
 	Piece* getCurPiece() const
 	{
@@ -301,7 +327,9 @@ private:
 	int       playTime_;
 	int       score_;
 	bool      isGameover_;
-
+	std::random_device rnd;
+	std::mt19937_64 mt;
+	std::uniform_int_distribution<> rand;
 	int		fontHandle;
 	int		fontHandleLarge;
 

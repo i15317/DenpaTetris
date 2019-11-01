@@ -1,9 +1,10 @@
 ﻿// DenpaTetris.cpp : アプリケーションのエントリ ポイントを定義します。
 //
 #define WIN32_LEAN_AND_MEAN
-#define _CRT_SECURE_NO_WARNINGS
-#define _CRT_NON_CONFORMING_SWPRINTFS
 
+#define _CRT_SECURE_NO_WARNINGS
+
+#define _CRT_NON_CONFORMING_SWPRINTFS
 #include "framework.h"
 #include "DenpaTetris.h"
 #include"Tetris.h"
@@ -13,9 +14,10 @@
 
 
 /*
-システムフラグ
-*/
 
+システムフラグ
+
+*/
 bool system_flag = true;
 bool game_flag = false;
 
