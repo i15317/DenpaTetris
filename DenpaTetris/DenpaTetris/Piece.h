@@ -62,7 +62,7 @@ public:
 public:
 
 	//ステートチェック
-	int checkStateBlock(int x, int y) 
+	int checkStateBlock(int x, int y)
 	{
 		// todo: インデックスチェック
 		return cells_[x][y].getBlock();
@@ -73,12 +73,12 @@ public:
 		return cells_[x][y];
 	}
 
-	Point getPos() const 
+	Point getPos() const
 	{
 		return pos_;
 	}
 
-	void UpdatePosition(Point new_pos) 
+	void UpdatePosition(Point new_pos)
 	{
 		m_oldPos.push_back(new_pos);
 		this->pos_ = new_pos;

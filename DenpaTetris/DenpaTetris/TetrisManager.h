@@ -6,6 +6,10 @@
 class Field;
 class Piece;
 
+/*
+テトリスのゲームを管理するやつ（のはず）
+*/
+
 class TetrisManager {
 public:
 	//移動方向
@@ -14,6 +18,8 @@ public:
 		Right,
 		Down,
 	};
+
+
 	TetrisManager(Field* field);
 	~TetrisManager();
 
@@ -68,7 +74,7 @@ public:
 
 	bool movePiece(Dir dir);
 	void fixPiece(const Point pos);
-
+	
 private:
 	std::shared_ptr<Field> m_field;
 	std::shared_ptr<Piece> m_currentPiece;

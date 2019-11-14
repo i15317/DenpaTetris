@@ -17,8 +17,8 @@ class Piece6;
 class PieceMaker {
 public:
 	PieceMaker();
-	~PieceMaker();
-
+	~PieceMaker() {};
+	
 	Piece* createPiece();
 
 private:
