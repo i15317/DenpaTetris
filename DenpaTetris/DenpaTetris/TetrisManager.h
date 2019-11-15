@@ -5,26 +5,38 @@
 
 class Field;
 class Piece;
-
+class Point;
 /*
-テトリスのゲームを管理するやつ（のはず）
+テトリスの１ゲームを管理するやつ（のはず）
+高速化を図るためヘッダー実装多め
 */
 
 class TetrisManager {
 public:
 	//移動方向
 	enum Dir {
+		Default,
 		Left,
 		Right,
 		Down,
+		Rotate
 	};
 
-
 	TetrisManager(Field* field);
+	TetrisManager();
 	~TetrisManager();
 
 	//ピースを登録する
 	void SubmitPiece(Piece* piece);
+	//メインアップデート
+	bool update(Dir dir = Dir::Default);
+	//メイン描画命令用
+	void render();
+	//初期化
+	void init(Field* field);
+
+private:
+
 	//移動可能かチェックするやつ
 	bool isMovable(const Point& pos)const
 	{
@@ -70,12 +82,15 @@ public:
 		return true;
 	}
 
+	void resetState();
 	bool turn();
-
-	bool movePiece(Dir dir);
 	void fixPiece(const Point pos);
-	
+	//ピース移動
+	bool movePiece(Dir dir);
+
 private:
+	UINT m_score;
+	UINT m_deletedPieceNum;
 	std::shared_ptr<Field> m_field;
 	std::shared_ptr<Piece> m_currentPiece;
 	//スタック

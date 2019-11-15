@@ -10,13 +10,6 @@
 #include <tchar.h>
 #include <ctime>
 #include <process.h>
+#include"TetrisManager.h"
+#include"PieceMaker.h"
 #include"Tetris.h"
-
-void  Tetris::releasePiece(Piece* piece)
-{
-	if (piece != nullptr)
-	{
-		delete piece;
-		piece = nullptr;
-	}
-}
