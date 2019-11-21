@@ -183,6 +183,7 @@
     <ClCompile Include="Piece.cpp" />
     <ClCompile Include="PieceMaker.cpp" />
     <ClCompile Include="Render.cpp" />
+    <ClCompile Include="Resource.cpp" />
     <ClCompile Include="Tetris.cpp" />
     <ClCompile Include="TetrisManager.cpp" />
   </ItemGroup>

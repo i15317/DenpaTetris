@@ -30,18 +30,14 @@ class Field;
 class Piece;
 class TetrisManager;
 class PieceMaker;
-
 class Tetris {
 public:
 	//コンストラクタ実装
 	explicit Tetris() :
-		field_(nullptr),playTime_(0), isGameover(false)
+		field_(nullptr), playTime_(0), isGameover(false)
 	{
-
 		field_ = new Field();
-
 		m_tetrisManager = TetrisManager(field_);
-
 	}
 
 	//デストラクタ実装
@@ -54,16 +50,12 @@ public:
 		//ゲームのステータス更新
 		if (!m_tetrisManager.update())
 		{
-
 			if (field_->isStacked())
 			{
 				isGameover = true;
-				//		SendMessage(nullptr, WM_RESTART, 0, 0);
 			}
-
 			//新しいピースの生成
 			auto new_piece = m_pieceMaker.createPiece();
-
 			//ピースの更新処理
 			m_tetrisManager.SubmitPiece(new_piece);
 		}
@@ -78,7 +70,6 @@ private:
 	Field* field_;
 	TetrisManager m_tetrisManager;
 	PieceMaker m_pieceMaker;
-
 	int       playTime_;
 	bool	isGameover;
 };

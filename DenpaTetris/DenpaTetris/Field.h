@@ -22,8 +22,6 @@ public:
 	なんだこれ？
 	*/
 	void fixPiece(const Point pos, const Cell cells[][PieceHeight]);
-
-
 	void updateState(int x, int y, Cell cell)
 	{
 		cells_[x][y] = cell;
@@ -52,7 +50,11 @@ public:
 		return cells_[x][y];
 	}
 
+	int getCellWidth()const { return sizeof(cells_[0] / cells_[0][0]); }
+	int getCellWidth() const { return sizeof(cells_ / cells_[0]); }
+
 private:
 	//ブロック配列
 	Cell cells_[FieldWidth][FieldHeight];
 };
+

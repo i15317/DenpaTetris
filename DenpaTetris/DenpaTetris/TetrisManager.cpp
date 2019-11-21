@@ -2,6 +2,7 @@
 #include"Piece.h"
 #include"Point.h"
 #include"Cell.h"
+#include"TetrisManager.h"
 #include"PieceMaker.h"
 #include"TetrisManager.h"
 

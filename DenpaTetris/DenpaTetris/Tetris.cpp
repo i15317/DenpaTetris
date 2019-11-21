@@ -13,3 +13,8 @@
 #include"TetrisManager.h"
 #include"PieceMaker.h"
 #include"Tetris.h"
+
+
+void Tetris::Render() {
+
+}

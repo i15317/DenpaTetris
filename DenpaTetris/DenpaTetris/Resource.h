@@ -2,7 +2,7 @@
 // Microsoft Visual C++ で生成されたインクルード ファイルです。
 // 次で使用: DenpaTetris.rc
 #pragma once
-
+#include"Render.h"
 #define IDS_APP_TITLE			103
 
 #define IDR_MAINFRAME			128
@@ -46,4 +46,8 @@ constexpr int SizeCellPixelY = 20;
 constexpr int MovePixcel = 19;
 constexpr int SizeBmPixelX = 420;
 constexpr int SizeBmPixelY = 520;
+
+
+//レンダー
+extern TetrisRender g_tetrisRender;
 

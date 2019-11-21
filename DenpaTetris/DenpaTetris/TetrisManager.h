@@ -6,6 +6,7 @@
 class Field;
 class Piece;
 class Point;
+
 /*
 テトリスの１ゲームを管理するやつ（のはず）
 高速化を図るためヘッダー実装多め
@@ -26,6 +27,8 @@ public:
 	TetrisManager();
 	~TetrisManager();
 
+	
+	void start(Piece* piece);
 	//ピースを登録する
 	void SubmitPiece(Piece* piece);
 	//メインアップデート
@@ -93,6 +96,7 @@ private:
 	UINT m_deletedPieceNum;
 	std::shared_ptr<Field> m_field;
 	std::shared_ptr<Piece> m_currentPiece;
+	std::shared_ptr<Piece>m_nextPieces;
 	//スタック
 	std::vector<std::shared_ptr<Piece>>m_oldPieces;
 };
