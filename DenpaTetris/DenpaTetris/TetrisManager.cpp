@@ -10,6 +10,8 @@
 TetrisManager::TetrisManager(Field* field)
 {
 	init(field);
+	m_currentPiece = nullptr;
+	m_nextPieces = nullptr;
 }
 
 TetrisManager::TetrisManager() {
@@ -30,6 +32,11 @@ TetrisManager::~TetrisManager()
 void TetrisManager::init(Field* field)
 {
 	m_field.reset(field);
+}
+
+void TetrisManager::start(Piece* piece)
+{
+	m_nextPieces.reset(piece);
 }
 
 
@@ -142,11 +149,68 @@ void TetrisManager::SubmitPiece(Piece* add_piece) {
 	std::shared_ptr<Piece>back_ptr(m_currentPiece.get());
 	//バックアップ処理
 	m_oldPieces.push_back(back_ptr);
-	//新しいピースの位置を参照する
-	m_currentPiece.reset(add_piece);
+
+	//状態遷移
+	m_currentPiece.reset(m_nextPieces.get());
+	m_nextPieces.reset(add_piece);
+
+
 }
 
-bool TetrisManager::update(Dir dir) {
+bool TetrisManager::update() {
+	//キーボード処理
+	bool loop_flag = true;
+	while (!m_keyInputValue.empty() && loop_flag)
+	{
+		//キーボード入力値を取得する
+		auto key = m_keyInputValue.front();
+
+		switch (key)
+		{
+		case VK_DOWN:
+		{
+
+			loop_flag = false;
+		}//下矢印キー操作
+		break;
+
+
+		case VK_LEFT:
+		{
+
+
+
+			loop_flag = false;
+		}//左矢印キー操作
+		break;
+
+
+		case VK_RIGHT:
+		{
+
+
+
+
+			loop_flag = false;
+		}//右矢印キー操作
+		break;
+
+
+
+		case VK_SPACE:
+		{
+
+		}//スペースキー操作
+		break;
+
+		}//switchスコープ
+
+
+
+		//必ずブレイク構文の条件を突破したときのみバッファを消去
+		m_keyInputValue.pop();
+	}
+
 	bool isSucceeded = movePiece(Dir::Down);
 	if (!isSucceeded)
 	{
@@ -178,4 +242,12 @@ void TetrisManager::resetState()
 {
 	m_score = 0;
 	m_deletedPieceNum = 0;
+}
+
+
+void TetrisManager::render()
+{
+	g_tetrisRender.submitCurrentPiece(m_currentPiece.get());
+	g_tetrisRender.submitNextPiece(m_nextPieces.get());
+	g_tetrisRender.submitField(m_field.get());
 }

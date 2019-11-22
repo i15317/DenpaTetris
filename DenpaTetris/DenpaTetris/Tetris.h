@@ -17,7 +17,6 @@ Tetris用クラス群（突貫作成のため可読性はご容赦）
 #include <ctime>
 #include <process.h>
 
-
 /*
 
 Tetrisのゲーム全体を管理するクラス
@@ -30,11 +29,13 @@ class Field;
 class Piece;
 class TetrisManager;
 class PieceMaker;
-class Tetris {
+class Scene;
+
+class Tetris :public Scene {
 public:
 	//コンストラクタ実装
-	explicit Tetris() :
-		field_(nullptr), playTime_(0), isGameover(false)
+	Tetris() :
+		Scene(), field_(nullptr), playTime_(0), isGameover(false)
 	{
 		field_ = new Field();
 		m_tetrisManager = TetrisManager(field_);
@@ -45,7 +46,7 @@ public:
 	{
 		delete field_;
 	}
-	void Update()
+	void Update() override
 	{
 		//ゲームのステータス更新
 		if (!m_tetrisManager.update())
@@ -61,9 +62,7 @@ public:
 		}
 	}
 
-	void Render();
-
-private:
+	void Render() override;
 
 
 private:

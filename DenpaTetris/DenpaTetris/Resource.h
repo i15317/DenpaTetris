@@ -3,8 +3,9 @@
 // 次で使用: DenpaTetris.rc
 #pragma once
 #include"Render.h"
-#define IDS_APP_TITLE			103
+#include<queue>
 
+#define IDS_APP_TITLE			103
 #define IDR_MAINFRAME			128
 #define IDD_DENPATETRIS_DIALOG	102
 #define IDD_ABOUTBOX			103
@@ -50,4 +51,13 @@ constexpr int SizeBmPixelY = 520;
 
 //レンダー
 extern TetrisRender g_tetrisRender;
+//ウィンドウハンドル
+extern HWND hMainWnd;
+//ウィンドウプロシージャのアドレス
+extern WNDPROC dxWndProc;
+//キー入力処理を貯めておくキュー
+extern std::queue<WPARAM>keyBuf;
+
+//自作メッセージプロシージャー
+LRESULT CALLBACK messageProc(HWND hWnd, UINT msg, WPARAM wparam, LPARAM lparam);
 

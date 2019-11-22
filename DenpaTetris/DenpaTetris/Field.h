@@ -1,8 +1,7 @@
 #pragma once
 #include"Resource.h"
-#
+#include"Point.h"
 //前方宣言
-class Point;
 class Cell;
 
 //フィールドクラス

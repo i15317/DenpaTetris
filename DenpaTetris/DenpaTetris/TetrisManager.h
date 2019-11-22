@@ -2,10 +2,10 @@
 #include<memory>
 #include<stack>
 #include<vector>
+#include"Point.h"
 
 class Field;
 class Piece;
-class Point;
 
 /*
 テトリスの１ゲームを管理するやつ（のはず）
@@ -32,11 +32,13 @@ public:
 	//ピースを登録する
 	void SubmitPiece(Piece* piece);
 	//メインアップデート
-	bool update(Dir dir = Dir::Default);
+	bool update();
 	//メイン描画命令用
 	void render();
 	//初期化
 	void init(Field* field);
+	//キーボードからの情報を登録
+	void registKeyValue(WPARAM wparam) { m_keyInputValue.push(wparam); }
 
 private:
 
@@ -99,4 +101,6 @@ private:
 	std::shared_ptr<Piece>m_nextPieces;
 	//スタック
 	std::vector<std::shared_ptr<Piece>>m_oldPieces;
+	//キュー
+	std::queue<WPARAM>m_keyInputValue;
 };

@@ -1,0 +1,394 @@
+﻿  DenpaTetris.cpp
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(27,1): error C2027: 認識できない型 'Cell' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(5): message : 'Cell' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(32,14): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(33,14): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(34,1): error C2027: 認識できない型 'Cell' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(5): message : 'Cell' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(29,4): error C2660: 'DxLib::DrawBox': 関数に 3 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2645,14): message : 'DxLib::DrawBox' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(43,23): error C2065: 'FieldWidth': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(45,27): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(46,21): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,38): error C2065: 'FieldHeight': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,57): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,1): error C2660: 'DxLib::DrawLine': 関数に 4 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2643,14): message : 'DxLib::DrawLine' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(49,23): error C2065: 'FieldHeight': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(51,21): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(52,27): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,30): error C2065: 'FieldWidth': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,48): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,1): error C2660: 'DxLib::DrawLine': 関数に 4 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2643,14): message : 'DxLib::DrawLine' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(71,31): error C2079: 'Tetris::m_tetrisManager' が 未定義の class 'TetrisManager' で使用しています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(72,25): error C2079: 'Tetris::m_pieceMaker' が 未定義の class 'PieceMaker' で使用しています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(39,1): error C2027: 認識できない型 'Field' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(29): message : 'Field' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(40,34): error C2027: 認識できない型 'TetrisManager' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(31): message : 'TetrisManager' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(46,1): warning C4150: 'Field' 型を削除するため delete 演算子が呼び出されましたが、定義がありません。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(29): message : 'Field' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(53,1): error C2027: 認識できない型 'Field' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(29): message : 'Field' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(60,1): error C3536: 'new_piece': 初期化前に使用することはできません
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Title.h(25,52): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Title.h(25,33): warning C4244: '引数': 'double' から 'int' への変換です。データが失われる可能性があります。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\DenpaTetris.cpp(48,23): error C2039: 'getCurPiece': 'Tetris' のメンバーではありません。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(33): message : 'Tetris' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\DenpaTetris.cpp(48,39): error C2027: 認識できない型 'Piece' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(30): message : 'Piece' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\DenpaTetris.cpp(48,44): error C2065: 'Right': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\DenpaTetris.cpp(52,23): error C2039: 'getCurPiece': 'Tetris' のメンバーではありません。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(33): message : 'Tetris' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\DenpaTetris.cpp(52,39): error C2027: 認識できない型 'Piece' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(30): message : 'Piece' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\DenpaTetris.cpp(52,43): error C2065: 'Left': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\DenpaTetris.cpp(56,23): error C2039: 'getCurPiece': 'Tetris' のメンバーではありません。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(33): message : 'Tetris' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\DenpaTetris.cpp(56,39): error C2027: 認識できない型 'Piece' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(30): message : 'Piece' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\DenpaTetris.cpp(56,43): error C2065: 'Down': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\DenpaTetris.cpp(59,23): error C2039: 'getCurPiece': 'Tetris' のメンバーではありません。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(33): message : 'Tetris' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\DenpaTetris.cpp(72,6): error C2248: 'Tetris::isGameover': private メンバー (クラス 'Tetris' で宣言されている) にアクセスできません。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(74): message : 'Tetris::isGameover' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.h(33): message : 'Tetris' の宣言を確認してください
+  Executor.cpp
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\DenpaTetris.cpp(72,13): error C2064: 0 引数を取り込む関数には評価されません。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Executor.h(18,34): error C2065: 'keyBuf': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Executor.h(18,50): error C2065: 'keyBuf': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Executor.h(18,21): error C3536: 'key': 初期化前に使用することはできません
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Executor.cpp(20,16): error C2562: 'Executor::init': 関数は 'void' 型として宣言されていますが、値を返しました。
+  Field.cpp
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Executor.cpp(6): message : 'Executor::init' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(32,14): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(33,14): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(29,4): error C2660: 'DxLib::DrawBox': 関数に 4 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2645,14): message : 'DxLib::DrawBox' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(43,23): error C2065: 'FieldWidth': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(45,27): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(46,21): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,38): error C2065: 'FieldHeight': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,57): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,1): error C2660: 'DxLib::DrawLine': 関数に 4 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2643,14): message : 'DxLib::DrawLine' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(49,23): error C2065: 'FieldHeight': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(51,21): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(52,27): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,30): error C2065: 'FieldWidth': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,48): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,1): error C2660: 'DxLib::DrawLine': 関数に 4 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2643,14): message : 'DxLib::DrawLine' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(54,27): error C2535: 'int Field::getCellWidth(void) const': メンバー関数は、既に定義または宣言されています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(53): message : 'Field::getCellWidth' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(53,52): error C2677: 二項演算子 '/': 型 'const Cell' を扱うグローバルな演算子が見つかりません (または変換できません) (新しい動作; ヘルプを参照)。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(54,27): error C2296: '/': 無効です。左オペランドには型 'const Cell [14][23]' が指定されています。
+  Piece.cpp
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(54,27): error C2297: '/': 無効です。右オペランドには型 'const Cell [23]' が指定されています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(32,14): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(33,14): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(29,4): error C2660: 'DxLib::DrawBox': 関数に 4 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2645,14): message : 'DxLib::DrawBox' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(43,23): error C2065: 'FieldWidth': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(45,27): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(46,21): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,38): error C2065: 'FieldHeight': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,57): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,1): error C2660: 'DxLib::DrawLine': 関数に 4 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2643,14): message : 'DxLib::DrawLine' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(49,23): error C2065: 'FieldHeight': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(51,21): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(52,27): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,30): error C2065: 'FieldWidth': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,48): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,1): error C2660: 'DxLib::DrawLine': 関数に 4 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2643,14): message : 'DxLib::DrawLine' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(23,1): warning C4005: '_DEBUG': マクロが再定義されました。
+  PieceMaker.cpp
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.cpp : message : '_DEBUG' の以前の定義を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(27,1): error C2027: 認識できない型 'Cell' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(5): message : 'Cell' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(32,14): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(33,14): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(34,1): error C2027: 認識できない型 'Cell' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(5): message : 'Cell' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(29,4): error C2660: 'DxLib::DrawBox': 関数に 3 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2645,14): message : 'DxLib::DrawBox' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(43,23): error C2065: 'FieldWidth': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(45,27): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(46,21): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,38): error C2065: 'FieldHeight': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,57): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,1): error C2660: 'DxLib::DrawLine': 関数に 4 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2643,14): message : 'DxLib::DrawLine' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(49,23): error C2065: 'FieldHeight': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(51,21): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(52,27): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,30): error C2065: 'FieldWidth': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,48): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,1): error C2660: 'DxLib::DrawLine': 関数に 4 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2643,14): message : 'DxLib::DrawLine' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(23,1): warning C4005: '_DEBUG': マクロが再定義されました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\PieceMaker.cpp : message : '_DEBUG' の以前の定義を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(92,12): error C2079: 'Piece::pos_' が 未定義の class 'Point' で使用しています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(94,14): error C2079: 'Piece::pixel_' が 未定義の class 'Point' で使用しています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(108,38): error C2079: 'Piece::cells_' が 未定義の class 'Cell' で使用しています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(57,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(68,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(72,2): error C2027: 認識できない型 'Cell' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(40): message : 'Cell' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(73,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(77,2): error C2027: 認識できない型 'Point' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(39): message : 'Point' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(84,16): error C2027: 認識できない型 'Point' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(39): message : 'Point' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(89,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(123,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(124,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(125,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(126,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(133,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(134,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(135,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(136,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(145,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(146,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(147,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(148,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(158,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(159,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(160,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(161,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(170,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(171,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(172,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(173,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(183,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(184,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(185,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(186,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(196,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(197,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(198,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+  Render.cpp
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(199,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\intsafe.h(75,29): error C2632: '__int64' と '__int64' の 2 つの型指定子のあいだにコードがありません。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\intsafe.h(75,37): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'__int64' の左辺を無視します。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(32,14): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(33,14): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(29,4): error C2660: 'DxLib::DrawBox': 関数に 4 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(2645,14): message : 'DxLib::DrawBox' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(43,23): error C2065: 'FieldWidth': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(45,27): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(46,21): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,38): error C2065: 'FieldHeight': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,57): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,1): error C2660: 'DxLib::DrawLine': 関数に 4 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(2643,14): message : 'DxLib::DrawLine' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(49,23): error C2065: 'FieldHeight': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(51,21): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(52,27): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,30): error C2065: 'FieldWidth': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,48): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,1): error C2660: 'DxLib::DrawLine': 関数に 4 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\DxLib.h(2643,14): message : 'DxLib::DrawLine' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(54,27): error C2535: 'int Field::getCellWidth(void) const': メンバー関数は、既に定義または宣言されています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(53): message : 'Field::getCellWidth' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(53,52): error C2677: 二項演算子 '/': 型 'const Cell' を扱うグローバルな演算子が見つかりません (または変換できません) (新しい動作; ヘルプを参照)。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(54,27): error C2296: '/': 無効です。左オペランドには型 'const Cell [14][23]' が指定されています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(54,27): error C2297: '/': 無効です。右オペランドには型 'const Cell [23]' が指定されています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(23,1): warning C4005: '_DEBUG': マクロが再定義されました。
+  Resource.cpp
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.cpp : message : '_DEBUG' の以前の定義を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(27,1): error C2027: 認識できない型 'Cell' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(5): message : 'Cell' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(32,14): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(33,14): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(34,1): error C2027: 認識できない型 'Cell' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(5): message : 'Cell' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(29,4): error C2660: 'DxLib::DrawBox': 関数に 3 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2645,14): message : 'DxLib::DrawBox' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(43,23): error C2065: 'FieldWidth': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(45,27): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(46,21): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,38): error C2065: 'FieldHeight': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,57): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,1): error C2660: 'DxLib::DrawLine': 関数に 4 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2643,14): message : 'DxLib::DrawLine' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(49,23): error C2065: 'FieldHeight': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(51,21): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(52,27): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,30): error C2065: 'FieldWidth': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,48): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,1): error C2660: 'DxLib::DrawLine': 関数に 4 個の引数を指定できません。
+  Tetris.cpp
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2643,14): message : 'DxLib::DrawLine' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(27,1): error C2027: 認識できない型 'Cell' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(5): message : 'Cell' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(32,14): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(33,14): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(34,1): error C2027: 認識できない型 'Cell' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(5): message : 'Cell' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(29,4): error C2660: 'DxLib::DrawBox': 関数に 3 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2645,14): message : 'DxLib::DrawBox' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(43,23): error C2065: 'FieldWidth': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(45,27): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(46,21): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,38): error C2065: 'FieldHeight': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,57): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,1): error C2660: 'DxLib::DrawLine': 関数に 4 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2643,14): message : 'DxLib::DrawLine' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(49,23): error C2065: 'FieldHeight': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(51,21): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(52,27): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,30): error C2065: 'FieldWidth': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,48): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,1): error C2660: 'DxLib::DrawLine': 関数に 4 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2643,14): message : 'DxLib::DrawLine' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(54,27): error C2535: 'int Field::getCellWidth(void) const': メンバー関数は、既に定義または宣言されています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(53): message : 'Field::getCellWidth' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(58,38): error C2079: 'Field::cells_' が 未定義の class 'Cell' で使用しています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(27,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(40,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(49,2): error C2027: 認識できない型 'Cell' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(6): message : 'Cell' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(50,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(53,26): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(54,27): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(23,1): warning C4005: '_DEBUG': マクロが再定義されました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Tetris.cpp : message : '_DEBUG' の以前の定義を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(92,12): error C2079: 'Piece::pos_' が 未定義の class 'Point' で使用しています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(94,14): error C2079: 'Piece::pixel_' が 未定義の class 'Point' で使用しています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(108,38): error C2079: 'Piece::cells_' が 未定義の class 'Cell' で使用しています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(57,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(68,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(72,2): error C2027: 認識できない型 'Cell' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(40): message : 'Cell' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(73,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(77,2): error C2027: 認識できない型 'Point' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(39): message : 'Point' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(84,16): error C2027: 認識できない型 'Point' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(39): message : 'Point' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(89,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(123,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(124,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(125,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(126,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(133,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(134,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(135,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(136,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(145,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(146,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(147,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(148,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(158,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(159,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(160,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(161,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(170,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(171,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(172,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(173,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(183,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(184,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(185,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(186,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(196,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(197,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(198,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(199,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\TetrisManager.h(49,1): error C2027: 認識できない型 'Point' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\TetrisManager.h(8): message : 'Point' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\TetrisManager.h(50,1): error C2027: 認識できない型 'Point' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\TetrisManager.h(8): message : 'Point' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\TetrisManager.h(56,1): error C2027: 認識できない型 'Cell' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(40): message : 'Cell' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\TetrisManager.h(70,1): error C2027: 認識できない型 'Cell' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(40): message : 'Cell' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\TetrisManager.h(71,1): error C2027: 認識できない型 'Point' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\TetrisManager.h(8): message : 'Point' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\TetrisManager.h(72,1): error C2027: 認識できない型 'Point' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\TetrisManager.h(8): message : 'Point' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\TetrisManager.h(78,1): error C2027: 認識できない型 'Cell' が使われています。
+  TetrisManager.cpp
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(40): message : 'Cell' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(27,1): error C2027: 認識できない型 'Cell' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(5): message : 'Cell' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(32,14): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(33,14): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(34,1): error C2027: 認識できない型 'Cell' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(5): message : 'Cell' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(29,4): error C2660: 'DxLib::DrawBox': 関数に 3 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2645,14): message : 'DxLib::DrawBox' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(43,23): error C2065: 'FieldWidth': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(45,27): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(46,21): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,38): error C2065: 'FieldHeight': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,57): error C2065: 'SizeCellPixelY': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(47,1): error C2660: 'DxLib::DrawLine': 関数に 4 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2643,14): message : 'DxLib::DrawLine' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(49,23): error C2065: 'FieldHeight': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(51,21): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(52,27): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,30): error C2065: 'FieldWidth': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,48): error C2065: 'SizeCellPixelX': 定義されていない識別子です。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Render.h(53,1): error C2660: 'DxLib::DrawLine': 関数に 4 個の引数を指定できません。
+C:\DxLib_VC\プロジェクトに追加すべきファイル_VC用\Dxlib.h(2643,14): message : 'DxLib::DrawLine' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(54,27): error C2535: 'int Field::getCellWidth(void) const': メンバー関数は、既に定義または宣言されています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(53): message : 'Field::getCellWidth' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(58,38): error C2079: 'Field::cells_' が 未定義の class 'Cell' で使用しています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(27,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(40,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(49,2): error C2027: 認識できない型 'Cell' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(6): message : 'Cell' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(50,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(53,26): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Field.h(54,27): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(23,1): warning C4005: '_DEBUG': マクロが再定義されました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\TetrisManager.cpp : message : '_DEBUG' の以前の定義を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(92,12): error C2079: 'Piece::pos_' が 未定義の class 'Point' で使用しています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(94,14): error C2079: 'Piece::pixel_' が 未定義の class 'Point' で使用しています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(108,38): error C2079: 'Piece::cells_' が 未定義の class 'Cell' で使用しています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(57,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(68,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(72,2): error C2027: 認識できない型 'Cell' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(40): message : 'Cell' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(73,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(77,2): error C2027: 認識できない型 'Point' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(39): message : 'Point' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(84,16): error C2027: 認識できない型 'Point' が使われています。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(39): message : 'Point' の宣言を確認してください
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(89,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(123,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(124,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(125,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(126,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(133,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(134,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(135,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(136,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(145,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(146,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(147,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(148,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(158,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(159,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(160,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(161,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(170,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(171,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(172,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(173,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(183,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(184,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(185,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(186,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(196,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(197,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(198,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\Piece.h(199,1): error C2109: 配列または、ポインターでない変数に添字が使われました。
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\TetrisManager.cpp(126,61): error C3867: 'Piece::getCell': 非標準の構文です。メンバーにポインタを作成するには '&' を使用してください
+  コードを生成中...
+E:\File\Documents\DenpaTetris\DenpaTetris\DenpaTetris\TetrisManager.cpp(126,61): error C2109: 配列または、ポインターでない変数に添字が使われました。

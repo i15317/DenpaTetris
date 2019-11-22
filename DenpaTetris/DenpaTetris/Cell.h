@@ -8,10 +8,13 @@
 */
 class Cell {
 private:
+	
 	//メンバー変数
 	int block_;
 	int color_;
 public:
+	//コンストラクタ
+	Cell(){}
 	//初期化関数
 	void clear() {
 		block_ = 0;

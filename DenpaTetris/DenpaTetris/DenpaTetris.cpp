@@ -61,7 +61,6 @@ void AppLoop() {
 		else if (Buf[KEY_INPUT_Q] == 1) {
 			game_flag = false;
 			continue;
-
 		}
 
 		//状態更新
@@ -117,6 +116,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 
 		//描画
 		title.Render();
+		
+		
 		// 裏画面の内容を表画面に反映する
 		ScreenFlip();
 

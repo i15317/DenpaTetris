@@ -1,6 +1,5 @@
 #pragma once
 
-
 //À•WƒNƒ‰ƒX
 class Point {
 public:

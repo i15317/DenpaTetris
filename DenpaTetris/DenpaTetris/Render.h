@@ -1,10 +1,12 @@
 #pragma once
 #include<wrl.h>
+#include<Dxlib.h>
+#include"Point.h"
+
 //ƒŒƒ“ƒ_ƒ‰[
 class Cell;
 class Piece;
 class Field;
-class Point;
 class TetrisRender {
 public:
 
